@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*
+Tipical Device Breakpoints (2025):
+≤480px (mobile)
+768px (tablet portrait)
+992px (tablet landscape/small laptop)
+1200px+ (desktop)
+*/
+
+@media screen and (min-width: 768px) {
+    #burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
